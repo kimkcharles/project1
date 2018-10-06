@@ -1,6 +1,10 @@
+body{
+  background-color: #2196F3;
+}
+
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 2fr 5fr;
   grid-template-rows: 1fr 9fr;
   grid-gap: 10px;
   background-color: #2196F3;
@@ -25,7 +29,12 @@
 }
 
 #profile {
- border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
 }
 
 .item1 {
@@ -34,16 +43,21 @@
   align-items: center; 
 }
 
-h2 {
+h2, p {
   text-align: left;
 }
 
-.yr {
+.flexx{
+  display: flex
+}
+
+.leftcol {
 	float:left;
 }
-.inf{
+.rightcol{
 	float:right
 }
 .sepa{
 	clear:both
 }
+
